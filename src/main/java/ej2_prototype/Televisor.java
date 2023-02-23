@@ -98,7 +98,6 @@ public class Televisor implements ITelevisor{
     }
 
     public void showInfo() {
-        System.out.println("Televisor: ");
         System.out.println("so=" + so);
         System.out.println("so_version=" + so_version);
         System.out.println("pulgadas=" + pulgadas);
@@ -108,5 +107,6 @@ public class Televisor implements ITelevisor{
         System.out.println("controlRemoto=" + controlRemoto);
         System.out.println("bluetooth=" + bluetooth);
         System.out.println("serial=" + serial);
+        System.out.println("**************************************");
     }
 }

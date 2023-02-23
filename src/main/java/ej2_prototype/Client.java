@@ -16,12 +16,16 @@ public class Client {
         Televisor t2 = t1.clone();
         t2.setSerial(8);
         Televisor t3 = t1.clone();
-        t2.setSerial(12);
+        t3.setSerial(12);
         Televisor t4 = t1.clone();
         t4.setSerial(11);
         Televisor t5 = t1.clone();
         t5.setSerial(15);
 
-
+        t1.showInfo();
+        t2.showInfo();
+        t3.showInfo();
+        t4.showInfo();
+        t5.showInfo();
     }
 }
